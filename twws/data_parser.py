@@ -127,16 +127,6 @@ def parse_jsons(data_list, template_unit):
     return df
 
 
-def get_units_only(directory):
-
-    data_list, template_unit = load_data(directory)
-    df = parse_jsons(data_list, template_unit)
-
-    df = df.loc[df.special_category.isin(['', 'renown']), :]
-    df = df.loc[~df.caste.isin(['Lord', 'Hero']), :]
-    return df
-
-
 if __name__ == '__main__':
     data_list, template_unit = load_data(DIRECTORY)
     df = parse_jsons(data_list, template_unit)

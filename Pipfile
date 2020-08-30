@@ -12,9 +12,9 @@ seaborn = "*"
 twws = {editable = true, path = "."}
 scikit-learn = "*"
 pymc3 = "*"
-lightgbm = "*"
 arviz = "*"
 optuna = "*"
+lightgbm = "*"
 
 [requires]
 python_version = "3.8"
