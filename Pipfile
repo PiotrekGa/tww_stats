@@ -15,6 +15,7 @@ pymc3 = "*"
 arviz = "*"
 optuna = "*"
 lightgbm = "*"
+shap = "*"
 
 [requires]
 python_version = "3.8"

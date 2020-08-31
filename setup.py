@@ -12,7 +12,8 @@ setup(
     packages=find_packages(),
     install_requires=[
         'pandas>=1.1.1',
-        'optuna>=2.0.0],
+        'optuna>=2.0.0'
+	],
     license='MIT',
     long_description=open('README.md').read(),
     url="https://github.com/PiotrekGa/tww_stats"
